@@ -1,10 +1,10 @@
 import Notiflix from 'notiflix';
-refs = {
+const refs = {
   delay: document.querySelector('input[name="delay"]'),
   step: document.querySelector('input[name="step"]'),
   amount: document.querySelector('input[name="amount"]'),
   button: document.querySelector("button"),
-}
+};
 
 function createPromise(position, delay) {
   const promise = new Promise((resolve, reject) => {
